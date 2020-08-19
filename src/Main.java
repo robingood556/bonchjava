@@ -21,6 +21,8 @@ public class Main extends Application {
         primaryStage.setTitle("Программа для кафедры");
         button = new Button();
         button.setText("Выберите файл");
+        button.setLayoutX(60);
+        button.setLayoutY(80);
 
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
